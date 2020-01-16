@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Portal - Layout</title>
+<style>
+    header{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 20px;
+
+}
+body {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   color:#333
+}
+
+p {
+   padding: 10px;
+}
+
+#container {
+   margin: 0 auto;
+   width: 1000px;
+}
+
+#header {
+   float: left;
+   height: 75px;
+   width: 1000px;
+   background: yellow;
+}
+
+#content {
+   float: left;
+   background: #FFFFFF;
+   width: 700px;
+}
+
+#leftcolumn {
+   background: #33CCFF;
+   width: 150px;
+   float: left;  
+}
+
+#rightcolumn {
+   background: #CC33FF;
+   width: 150px;
+   float: left;
+}
+
+#footer {
+   height: 40px;
+   width: 1000px;
+   background: #33FF66;
+   clear: both;
+}
+
+</style>
+</head>
+<body>
+   <div id="container">
+       <div id="header">
+           <p> <img src="logo.jpg" alt="this photo is not for you" width="80px" height="80px">
+            </p>
+       </div>
+       <div id="leftcolumn">
+           <p>Lorem ipsum dolor ...</p>
+       </div>
+       <div id="content">
+          <p>Lorem ipsum dolor ... </p>
+      </div>
+       <div id="rightcolumn">
+           <p>Lorem ipsum dolor ... </p>
+       </div>
+        
+       
+       <div id="footer">
+           <p>This is the Footer</p>
+       </div>
+       
+   </div>
+</body>
+</html>
